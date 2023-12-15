@@ -1,0 +1,47 @@
+ .notes_content{
+    background-color: white;
+    box-shadow: 0px 4px 20px 0px #00000040;
+    margin: 1em;
+    gap: 1vw;
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    font-family: Roboto;
+ }
+
+ .date_time{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 15vh;
+    width: 15vw;
+    margin-left: 9em;
+}
+
+.desktop__notes__content__date{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.desktop__notes__content__time{
+    margin: 0 1vh 0 1.5vh;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.notes{
+    height: 18vh;
+    width: 50vw;
+    text-align: left;
+    margin: 1.5em 0 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.notes p{
+    height: 15vh;
+    width: 40vw;
+    max-width: 40vw;
+}

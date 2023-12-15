@@ -1,0 +1,41 @@
+.desktop__home{
+    width: 75vw;
+    height: 100vh;
+    background-color: #DAE5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.desktop__home > img {
+    margin-top: 18vh;
+    width: 35vw;
+    height: 35vh;
+}
+
+.desktop__home > h1,p {
+    margin: 0;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.desktop__home > h1{
+    font-weight: 700;
+}
+
+.home__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 15vh;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.home__footer > img {
+    width: 1.2vw;
+    height: 1.2vw;
+}

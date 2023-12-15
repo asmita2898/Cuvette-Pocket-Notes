@@ -1,0 +1,41 @@
+.content__body{
+    background-color: white;
+    box-shadow: 0px 4px 20px 0px #00000040;
+    margin: 1em;
+    gap: 1vw;
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    font-family: Roboto;
+}
+
+.date__time__details{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 15vh;
+    width: 80vw;
+}
+
+.date, .time{
+    font-size: 2vh;
+    font-weight: 500;
+    margin: 1vh 1vh 0 2vh;
+}
+
+.content__details{
+    height: 18vh;
+    width: 60vw;
+    text-align: left;
+    margin: 1.5em 0 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.content__details p{
+    height: 15vh;
+    width: 40vw;
+    max-width: 40vw; 
+}
