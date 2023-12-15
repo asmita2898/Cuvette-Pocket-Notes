@@ -46,7 +46,7 @@ function DesktopSidebar() {
           titles.map((title, index) => <NotesTitle key={index} title={title} />)
         ) : (
           <div className={styles.desktop__sidebar__notes__title__empty}>
-            <p>No Notes Group Created</p>
+            <p>Create Notes Group</p>
           </div>
         )}
       </div>
